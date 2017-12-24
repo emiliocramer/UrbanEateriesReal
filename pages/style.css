@@ -1,0 +1,85 @@
+body{
+  background-color: rgb(24, 24, 24);
+}
+
+@font-face {
+  font-family: 'karla-bold';
+  src: url('../fonts/Karla-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'karla';
+  src: url('../fonts/Karla-Regular.ttf');
+}
+
+p, a, li,h3{
+  font-family: 'karla'
+}
+p{
+  color: white;
+  font-size: 17px;  
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+li{
+  display: inline;
+}
+
+.header-main{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  display: flex;
+  background-color: white;
+  align-items: center;
+}
+
+.header-title{
+  font-size: 25px;
+  position: relative;
+  margin-left: 60px;
+  border-bottom: 2px solid black;
+  padding-bottom: 2px;
+}
+
+.section-main{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 60px;
+  background-image: url("https://oneclassblog.com/wp-content/uploads/2017/10/food.jpg");
+  display: flex;
+  background-size: cover; 
+  border-radius: 30px;
+}
+
+.main-footer{
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.main-footer p{
+  position: relative;
+  left: 80;
+  bottom: 30;
+}
+
+.main-footer ul{
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+
+}
+
+.main-footer a{
+  color: white;
+  position: relative;
+  bottom: 30;
+  right: 50;
+  margin:  0 0 0 30;
+}
