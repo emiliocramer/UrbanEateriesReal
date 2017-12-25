@@ -1,18 +1,24 @@
 
-
 @font-face {
   font-family: 'karla-bold';
   src: url('../fonts/Karla-Bold.ttf');
 }
 
-@font-face {
-  font-family: 'karla';
-  src: url('../fonts/Karla-Regular.ttf');
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Heebo:900');
+
+body{
+width: 100%;
+margin: 0;
 }
 
-p, a, li,h3{
-  font-family: 'karla'
+p, a, li,h3, h1{
+  font-family: 'Heebo', sans-serif;
 }
+
 p{
   color: white;
   font-size: 17px;  
@@ -48,6 +54,9 @@ li{
   margin-left: 30px;
 }
 
+.header-list a{
+  padding-bottom: 2px;
+}
 .list-not-first{
   margin-left: 30px;
 }
@@ -62,34 +71,44 @@ li{
   position: relative;
   top: 60px;
   background-image: url("https://4kwallpapers.co/wp-content/uploads/2015/07/Fresh-Raspberries-Blackberries-Fruits-at-the-Market-4K-Wallpaper.jpg");
-  display: flex;
   background-size: cover; 
   border-radius: 30px;
 }
 
-.main-footer{
+.section-text{
+  height: 80%;
+  width: 100%;
   display: flex;
   align-items: flex-end;
-  width: 100%;
 }
 
-.main-footer p{
-  position: relative;
-  left: 80;
-  bottom: 30;
-}
-
-.main-footer ul{
-  display: flex;
-  justify-content: flex-end;
-  width: 80%;
-
-}
-
-.main-footer a{
+.section-text h1{
   color: white;
-  position: relative;
-  bottom: 30;
-  right: 50;
-  margin:  0 0 0 30;
+  font-size: 175px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.section-footer{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.section-footer p{
+  margin-left: 60px;
+}
+
+.section-footer ul{
+  width: 79%;
+  text-align: right;
+}
+
+.section-footer a{
+  color: white;
+}
+
+.not-last-list{
+  margin-right: 40px;
 }
