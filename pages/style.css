@@ -124,4 +124,8 @@ li{
   .header-main{
     justify-content: center;
   }
+
+  .section-text h1{
+    font-size 100px;
+  }
 }  
