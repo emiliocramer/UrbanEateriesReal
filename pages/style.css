@@ -126,6 +126,10 @@ li{
   }
 
   .section-text h1{
-    font-size 100px;
+    font-size: 100px;
+  }
+
+  .section-text{
+    align-items: center;
   }
 }  
