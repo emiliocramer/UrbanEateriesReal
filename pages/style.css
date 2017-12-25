@@ -121,6 +121,10 @@ li{
     display: none;
   }
 
+  .header-title {
+    margin: 0;
+  }
+
   .header-main{
     justify-content: center;
   }
