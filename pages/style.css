@@ -4,8 +4,14 @@
   src: url('../fonts/Karla-Bold.ttf');
 }
 
-
-
+.main-all{
+  max-width: 1600px;
+  margin: auto auto;
+  background-color: white;
+}
+body{
+  background-color: rgb(182, 182, 182);
+}
 
 
 @import url('https://fonts.googleapis.com/css?family=Heebo:900');
@@ -40,6 +46,7 @@ li{
   display: flex;
   background-color: white;
   align-items: center;
+  max-width: 1600px;
 }
 
 .header-title{
@@ -76,10 +83,11 @@ li{
 }
 
 .section-text{
-  height: 80%;
+  height: 600;
   width: 100%;
   display: flex;
   align-items: flex-end;
+  border: 2px solid black;
 }
 
 .section-text h1{
@@ -125,8 +133,8 @@ li{
     margin: 0;
   }
 
-  .header-main{
-    justify-content: center;
+  .header-title{
+    margin-left: 40px;
   }
 
   .section-text h1{
